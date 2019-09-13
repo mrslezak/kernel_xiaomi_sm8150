@@ -712,6 +712,7 @@ CONFIG_CRYPTO_AES_ARM64_NEON_BLK=y
 CONFIG_STACK_HASH_ORDER_SHIFT=12
 CONFIG_MACH_XIAOMI_CEPHEUS=y
 # Add required fields to build source that always should have been here just weren't for some odd reason... Xiaomi
+# doesn't work with LOS kernel, still no WIFI, calls crash phone.  No sound.
 #CONFIG_MODULE_FORCE_LOAD=y
 # Add F2FS support once TWRP can mount the partition... fstab.qcom has to be changed as well for F2FS data partition only
 CONFIG_F2FS_FS=y
