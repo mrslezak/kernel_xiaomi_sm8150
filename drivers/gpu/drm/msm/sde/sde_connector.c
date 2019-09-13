@@ -1851,7 +1851,7 @@ static irqreturn_t esd_err_irq_handle(int irq, void *data)
 {
 	struct sde_connector *conn = data;
 	struct dsi_display *dsi_display;
-	struct drm_event event;
+	/*struct drm_event event;*/
 	bool panel_on = true;
 
 	if (!conn && !conn->display) {
