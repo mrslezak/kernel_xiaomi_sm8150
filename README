@@ -1,5 +1,9 @@
-LOS M.O.D. BETA KERNEL
+LOS M.O.D. KERNEL
 
+Update - on newest LOS this kernel is confirmed to work properly.
+All GPU OC functions, F2FS, LZ4, and Fsync toggle work.
+
+OLD INFO:
 This is meant to be forked. Not yet tested on LOS but builds and boots on Xiaomi ROMs without Wifi or Sound or phone calls.
 This is expected as Lineage OS swaps out the Vendor modules (included here) and has its own flash routine to use custom libs.
 Will not work without installing the (un)official Lineage OS first, then applying the kernel patches!!!!
